@@ -1,0 +1,25 @@
+{
+  "name": "mba-atividade-modulo-1",
+  "version": "1.0.0",
+  "description": "atividade do módulo 1 do MBA da XPE em front end",
+  "main": "src/index.html",
+  "scripts": {
+    "start": "serve ./src",
+    "deploy": "gh-pages -d src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jessicamelise/MBA-atividade-modulo-1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jessicamelise/MBA-atividade-modulo-1/issues"
+  },
+  "dependencies": {
+    "@babel/core": "^7.20.12",
+    "@babel/plugin-transform-modules-commonjs": "^7.20.11",
+    "gh-pages": "^5.0.0",
+    "serve": "^14.1.2"
+  }
+}
