@@ -1,0 +1,28 @@
+$font-stack: Helvetica, sans-serif
+$primary-color: black
+$africa-background: lightgreen
+$americas-background: lightyellow
+$asia-background: #ffcccb
+$europe-background: lavender
+$oceania-background: lightblue
+$default-background: lightgrey
+
+%reset-list
+    list-style: none
+    margin: 0
+    padding: 0
+
+%reset-margin-padding
+    margin: 0
+    padding: 0
+
+body
+    font: 100% $font-stack
+    color: $primary-color
+
+ul, li
+    @extend %reset-list
+    @extend %reset-margin-padding
+
+figure
+    @extend %reset-margin-padding
