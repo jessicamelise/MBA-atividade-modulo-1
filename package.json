@@ -5,7 +5,8 @@
   "main": "src/index.html",
   "scripts": {
     "start": "serve ./src",
-    "deploy": "gh-pages -d src"
+    "deploy": "gh-pages -d src",
+    "watch:sass": "node-sass src/style.sass src/style.css -w"
   },
   "repository": {
     "type": "git",
@@ -20,6 +21,7 @@
     "@babel/core": "^7.20.12",
     "@babel/plugin-transform-modules-commonjs": "^7.20.11",
     "gh-pages": "^5.0.0",
+    "node-sass": "^8.0.0",
     "serve": "^14.1.2"
   }
 }
